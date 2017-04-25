@@ -41,6 +41,10 @@
 .toolbar .legacy-actions-more
   position: absolute
   z-index: 9999999
+  // Will be overridden by the js code but having this here will prevent the
+  // dropdown to displayed in the upper right corner until the js sets the
+  // position explicitly.
+  visibility: hidden
 
 .toolbar .legacy-actions-more
   right: 0
